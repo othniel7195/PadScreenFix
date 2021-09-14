@@ -1,0 +1,16 @@
+PODS:
+  - PadScreenFix (0.1.0)
+
+DEPENDENCIES:
+  - PadScreenFix (from `../`)
+
+EXTERNAL SOURCES:
+  PadScreenFix:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PadScreenFix: fa1755b7c09c427c03ae7c729b42efe1028e7818
+
+PODFILE CHECKSUM: d01028206d7928604b9be1430d3c8a3ad89b5822
+
+COCOAPODS: 1.10.2

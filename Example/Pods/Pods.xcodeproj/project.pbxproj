@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0110D0BB73A707C03BCE230E4E0E5F84 /* PadScreenFix-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F45C82AF9C17A24AA30B971F24210580 /* PadScreenFix-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		104E3DA24AA40BAC45EDB82B7C96FB57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		10D079D5E462BD4E87994691C1DE82F5 /* Pods-PadScreenFix_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1A534F832B255C1319498AEBFF37CF /* Pods-PadScreenFix_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C0F8EB95686F6930D4BC9F894EBF333 /* Pods-PadScreenFix_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F177A1D2E412BB0DBAB65FF887578E /* Pods-PadScreenFix_Tests-dummy.m */; };
+		30933B7130B8577339761A6B306C131B /* FitSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C76B2527FEEA2B37EE7AA31D384407A /* FitSizeExtension.swift */; };
+		4ACBEC062CE85788A231DB91C48AAC5F /* Pods-PadScreenFix_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B756A63211E1759A5D5F24BCD54312 /* Pods-PadScreenFix_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51666B856CC9440CB475E69D49A4DCBC /* PadScreenFix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B97974D7701213636FF0C769599D4CD0 /* PadScreenFix-dummy.m */; };
+		7B8FAFF67A41C129063B164EEDF1B715 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		80BD576C4D4E5A3413251424F600E590 /* PadScreenFitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B0FBD17D2FD118EA50F5818EBCF01 /* PadScreenFitConfig.swift */; };
+		A63C2753E9F12D6C5C0053567A2978EC /* MatchableUIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D40032B01C686238E5A5ED84157252 /* MatchableUIExtension.swift */; };
+		A99EAB30028255F7DBFA1DC1082882D5 /* PadFitManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ECDAAF3E62DF3ADDEB3AC46ECB7EFD /* PadFitManger.swift */; };
+		AD9391D1F320B752782A8883C59B7DDE /* PadFitRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63C27F7D72DFE69AF42902BA9FDB46 /* PadFitRule.swift */; };
+		BECB9D68CC18A6DD27F0262983B6720E /* Pods-PadScreenFix_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DACB22ED0C902F42E7BF0059FD722 /* Pods-PadScreenFix_Example-dummy.m */; };
+		D7ED284347BFFFB1D412DBBECA402F34 /* MatchableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C91A8F8D9A529811A5C345C004322A /* MatchableExtension.swift */; };
+		FD3602CF5C16DE88FFA28B6D8421E52D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BCFA4E3CBEFE313FC6166BFF422928C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09D8F2ECB8EA30B4A974B65F9F974AC1;
+			remoteInfo = "Pods-PadScreenFix_Example";
+		};
+		559C5719753294E6A47BD115682F3E3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E389A5209959FAA296CB410C2E5422;
+			remoteInfo = PadScreenFix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0713B9A9BB2F8CAE47F00EC80A52AAC4 /* Pods-PadScreenFix_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PadScreenFix_Tests.modulemap"; sourceTree = "<group>"; };
+		1617896FB44231EC546F5CAD877FCE78 /* PadScreenFix.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PadScreenFix.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		19F177A1D2E412BB0DBAB65FF887578E /* Pods-PadScreenFix_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PadScreenFix_Tests-dummy.m"; sourceTree = "<group>"; };
+		1B9BB9EA5F3C0679CE3BF908B40A7DEC /* Pods-PadScreenFix_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PadScreenFix_Example-Info.plist"; sourceTree = "<group>"; };
+		1E6DACB22ED0C902F42E7BF0059FD722 /* Pods-PadScreenFix_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PadScreenFix_Example-dummy.m"; sourceTree = "<group>"; };
+		200B2D34D9D07C89FADB1D96DC1F8BAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		226D657FB6A052E9479CC96E9048B12F /* Pods-PadScreenFix_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PadScreenFix_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		22FCE7794418E010458E499F2B4A03EA /* Pods-PadScreenFix_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PadScreenFix_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		275659B4272DA2FEEDD94C4667B5616B /* Pods-PadScreenFix_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PadScreenFix_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C76B2527FEEA2B37EE7AA31D384407A /* FitSizeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FitSizeExtension.swift; path = PadScreenFix/Classes/FitSizeExtension.swift; sourceTree = "<group>"; };
+		2F0E7C4FFE87910A746B03BFC41D79EA /* Pods-PadScreenFix_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PadScreenFix_Tests-Info.plist"; sourceTree = "<group>"; };
+		351B0FBD17D2FD118EA50F5818EBCF01 /* PadScreenFitConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PadScreenFitConfig.swift; path = PadScreenFix/Classes/PadScreenFitConfig.swift; sourceTree = "<group>"; };
+		36F8001F90241F3DB28423F9398DFD07 /* Pods_PadScreenFix_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PadScreenFix_Example.framework; path = "Pods-PadScreenFix_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5460B1002F09FB2ED3A8C5E43FD3BB4A /* Pods-PadScreenFix_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PadScreenFix_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5525A16D07B733DC8E890D7B82CD1910 /* Pods_PadScreenFix_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PadScreenFix_Tests.framework; path = "Pods-PadScreenFix_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCA048B70E65C57764C1CEC42C7E469 /* PadScreenFix.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PadScreenFix.modulemap; sourceTree = "<group>"; };
+		68FF922F4FFFC0631D1E5CA101F11985 /* Pods-PadScreenFix_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PadScreenFix_Example-frameworks.sh"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73F5B5261EEB8E36123DA44BBFB4DBB2 /* PadScreenFix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PadScreenFix.framework; path = PadScreenFix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D40032B01C686238E5A5ED84157252 /* MatchableUIExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchableUIExtension.swift; path = PadScreenFix/Classes/MatchableUIExtension.swift; sourceTree = "<group>"; };
+		9433A4D28E9457B717E3E6BD25FD3973 /* Pods-PadScreenFix_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PadScreenFix_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94A8DDF320D1E1B255AC033CBA26B7B9 /* PadScreenFix-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PadScreenFix-prefix.pch"; sourceTree = "<group>"; };
+		94C750784FE409FECC2597C0B3F1422A /* Pods-PadScreenFix_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PadScreenFix_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9B1A534F832B255C1319498AEBFF37CF /* Pods-PadScreenFix_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PadScreenFix_Example-umbrella.h"; sourceTree = "<group>"; };
+		9C63C27F7D72DFE69AF42902BA9FDB46 /* PadFitRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PadFitRule.swift; path = PadScreenFix/Classes/PadFitRule.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7C8CDA889A8C276004252B2A81BD2F6 /* Pods-PadScreenFix_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PadScreenFix_Example.modulemap"; sourceTree = "<group>"; };
+		AC87CA3DB4C67E3E022EA442EFC0DB01 /* Pods-PadScreenFix_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PadScreenFix_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B3EEAE2143E17756DB097019748E5F78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B6B756A63211E1759A5D5F24BCD54312 /* Pods-PadScreenFix_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PadScreenFix_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B97974D7701213636FF0C769599D4CD0 /* PadScreenFix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PadScreenFix-dummy.m"; sourceTree = "<group>"; };
+		C5ECDAAF3E62DF3ADDEB3AC46ECB7EFD /* PadFitManger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PadFitManger.swift; path = PadScreenFix/Classes/PadFitManger.swift; sourceTree = "<group>"; };
+		C9C91A8F8D9A529811A5C345C004322A /* MatchableExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchableExtension.swift; path = PadScreenFix/Classes/MatchableExtension.swift; sourceTree = "<group>"; };
+		CB0131B930B062B52555BBA1834401BE /* Pods-PadScreenFix_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PadScreenFix_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D418F874E2A10100F80D01D1C988C44B /* PadScreenFix-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PadScreenFix-Info.plist"; sourceTree = "<group>"; };
+		E839FC680E581CC4E5818A868DF97A9C /* PadScreenFix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PadScreenFix.release.xcconfig; sourceTree = "<group>"; };
+		EAF391570FC17EE241E9AA4F49A309F2 /* PadScreenFix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PadScreenFix.debug.xcconfig; sourceTree = "<group>"; };
+		F45C82AF9C17A24AA30B971F24210580 /* PadScreenFix-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PadScreenFix-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E1B514E7C0A62F82925A5C5829EEE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3602CF5C16DE88FFA28B6D8421E52D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BE8E58F816DD692AED21E5ABBA4003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104E3DA24AA40BAC45EDB82B7C96FB57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F47D7E77F72A94B3A0963E5BC6180E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8FAFF67A41C129063B164EEDF1B715 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		521C65F2485E3DA8AE56A0BB206FAE88 /* Pods-PadScreenFix_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0713B9A9BB2F8CAE47F00EC80A52AAC4 /* Pods-PadScreenFix_Tests.modulemap */,
+				9433A4D28E9457B717E3E6BD25FD3973 /* Pods-PadScreenFix_Tests-acknowledgements.markdown */,
+				22FCE7794418E010458E499F2B4A03EA /* Pods-PadScreenFix_Tests-acknowledgements.plist */,
+				19F177A1D2E412BB0DBAB65FF887578E /* Pods-PadScreenFix_Tests-dummy.m */,
+				2F0E7C4FFE87910A746B03BFC41D79EA /* Pods-PadScreenFix_Tests-Info.plist */,
+				B6B756A63211E1759A5D5F24BCD54312 /* Pods-PadScreenFix_Tests-umbrella.h */,
+				5460B1002F09FB2ED3A8C5E43FD3BB4A /* Pods-PadScreenFix_Tests.debug.xcconfig */,
+				94C750784FE409FECC2597C0B3F1422A /* Pods-PadScreenFix_Tests.release.xcconfig */,
+			);
+			name = "Pods-PadScreenFix_Tests";
+			path = "Target Support Files/Pods-PadScreenFix_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6D21B13FD38BC8B6E25DDDCEF93C4622 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B3EEAE2143E17756DB097019748E5F78 /* LICENSE */,
+				1617896FB44231EC546F5CAD877FCE78 /* PadScreenFix.podspec */,
+				200B2D34D9D07C89FADB1D96DC1F8BAF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		837EE74A7A0B45FD08AF60F38D8B9068 /* Pods-PadScreenFix_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A7C8CDA889A8C276004252B2A81BD2F6 /* Pods-PadScreenFix_Example.modulemap */,
+				275659B4272DA2FEEDD94C4667B5616B /* Pods-PadScreenFix_Example-acknowledgements.markdown */,
+				CB0131B930B062B52555BBA1834401BE /* Pods-PadScreenFix_Example-acknowledgements.plist */,
+				1E6DACB22ED0C902F42E7BF0059FD722 /* Pods-PadScreenFix_Example-dummy.m */,
+				68FF922F4FFFC0631D1E5CA101F11985 /* Pods-PadScreenFix_Example-frameworks.sh */,
+				1B9BB9EA5F3C0679CE3BF908B40A7DEC /* Pods-PadScreenFix_Example-Info.plist */,
+				9B1A534F832B255C1319498AEBFF37CF /* Pods-PadScreenFix_Example-umbrella.h */,
+				226D657FB6A052E9479CC96E9048B12F /* Pods-PadScreenFix_Example.debug.xcconfig */,
+				AC87CA3DB4C67E3E022EA442EFC0DB01 /* Pods-PadScreenFix_Example.release.xcconfig */,
+			);
+			name = "Pods-PadScreenFix_Example";
+			path = "Target Support Files/Pods-PadScreenFix_Example";
+			sourceTree = "<group>";
+		};
+		9074EFF5FAE6B8C72229EE07D8ADF458 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6D528BFAFA8279FBD1B362511184A4D /* PadScreenFix */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		950E13422A57849E26991CFEE3D909A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FCA048B70E65C57764C1CEC42C7E469 /* PadScreenFix.modulemap */,
+				B97974D7701213636FF0C769599D4CD0 /* PadScreenFix-dummy.m */,
+				D418F874E2A10100F80D01D1C988C44B /* PadScreenFix-Info.plist */,
+				94A8DDF320D1E1B255AC033CBA26B7B9 /* PadScreenFix-prefix.pch */,
+				F45C82AF9C17A24AA30B971F24210580 /* PadScreenFix-umbrella.h */,
+				EAF391570FC17EE241E9AA4F49A309F2 /* PadScreenFix.debug.xcconfig */,
+				E839FC680E581CC4E5818A868DF97A9C /* PadScreenFix.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PadScreenFix";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9074EFF5FAE6B8C72229EE07D8ADF458 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E355C5D85E7BB9C06C6C7B3E89402E5B /* Products */,
+				E470FAAE1E804B3EFF79E6D9381C197C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E355C5D85E7BB9C06C6C7B3E89402E5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73F5B5261EEB8E36123DA44BBFB4DBB2 /* PadScreenFix.framework */,
+				36F8001F90241F3DB28423F9398DFD07 /* Pods_PadScreenFix_Example.framework */,
+				5525A16D07B733DC8E890D7B82CD1910 /* Pods_PadScreenFix_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E470FAAE1E804B3EFF79E6D9381C197C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				837EE74A7A0B45FD08AF60F38D8B9068 /* Pods-PadScreenFix_Example */,
+				521C65F2485E3DA8AE56A0BB206FAE88 /* Pods-PadScreenFix_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E6D528BFAFA8279FBD1B362511184A4D /* PadScreenFix */ = {
+			isa = PBXGroup;
+			children = (
+				2C76B2527FEEA2B37EE7AA31D384407A /* FitSizeExtension.swift */,
+				C9C91A8F8D9A529811A5C345C004322A /* MatchableExtension.swift */,
+				84D40032B01C686238E5A5ED84157252 /* MatchableUIExtension.swift */,
+				C5ECDAAF3E62DF3ADDEB3AC46ECB7EFD /* PadFitManger.swift */,
+				9C63C27F7D72DFE69AF42902BA9FDB46 /* PadFitRule.swift */,
+				351B0FBD17D2FD118EA50F5818EBCF01 /* PadScreenFitConfig.swift */,
+				6D21B13FD38BC8B6E25DDDCEF93C4622 /* Pod */,
+				950E13422A57849E26991CFEE3D909A4 /* Support Files */,
+			);
+			name = PadScreenFix;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D6B40CD9A8C3E2F7E0EF3BAFD2CC7AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACBEC062CE85788A231DB91C48AAC5F /* Pods-PadScreenFix_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871AFBC9714C3E20F18E48E492883966 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0110D0BB73A707C03BCE230E4E0E5F84 /* PadScreenFix-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7323D52DF0316A8C2D69651740A4C0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D079D5E462BD4E87994691C1DE82F5 /* Pods-PadScreenFix_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09D8F2ECB8EA30B4A974B65F9F974AC1 /* Pods-PadScreenFix_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A105A7CCA046CC0325E7FD75DF7BBD /* Build configuration list for PBXNativeTarget "Pods-PadScreenFix_Example" */;
+			buildPhases = (
+				A7323D52DF0316A8C2D69651740A4C0B /* Headers */,
+				09E3DB08923AE1B42391F84BF6F8D881 /* Sources */,
+				81BE8E58F816DD692AED21E5ABBA4003 /* Frameworks */,
+				66DF40008B17F09764F19A64DF844172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7AD91CE3809F6C417F488D7D9899E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-PadScreenFix_Example";
+			productName = "Pods-PadScreenFix_Example";
+			productReference = 36F8001F90241F3DB28423F9398DFD07 /* Pods_PadScreenFix_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41E389A5209959FAA296CB410C2E5422 /* PadScreenFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C038E97157C363937B9458FDB741F4A /* Build configuration list for PBXNativeTarget "PadScreenFix" */;
+			buildPhases = (
+				871AFBC9714C3E20F18E48E492883966 /* Headers */,
+				898F4D276F58CC1E5A29E03E251ADDBB /* Sources */,
+				F1F47D7E77F72A94B3A0963E5BC6180E /* Frameworks */,
+				75F3A43C80A5B5F312743F3A192212A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PadScreenFix;
+			productName = PadScreenFix;
+			productReference = 73F5B5261EEB8E36123DA44BBFB4DBB2 /* PadScreenFix.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0C9AE1785F8652B3AB52103C276F9BD /* Pods-PadScreenFix_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306A6C5D2B85FFA07E68CE8444A51002 /* Build configuration list for PBXNativeTarget "Pods-PadScreenFix_Tests" */;
+			buildPhases = (
+				4D6B40CD9A8C3E2F7E0EF3BAFD2CC7AD /* Headers */,
+				2FC0447AFD9F62D697650B52A8CB7C25 /* Sources */,
+				0E1B514E7C0A62F82925A5C5829EEE22 /* Frameworks */,
+				D7F49A2EF0D99A56110C7BA72CD912EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF8D1A12941ABEE9A93C65677637281D /* PBXTargetDependency */,
+			);
+			name = "Pods-PadScreenFix_Tests";
+			productName = "Pods-PadScreenFix_Tests";
+			productReference = 5525A16D07B733DC8E890D7B82CD1910 /* Pods_PadScreenFix_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E355C5D85E7BB9C06C6C7B3E89402E5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41E389A5209959FAA296CB410C2E5422 /* PadScreenFix */,
+				09D8F2ECB8EA30B4A974B65F9F974AC1 /* Pods-PadScreenFix_Example */,
+				B0C9AE1785F8652B3AB52103C276F9BD /* Pods-PadScreenFix_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66DF40008B17F09764F19A64DF844172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F3A43C80A5B5F312743F3A192212A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F49A2EF0D99A56110C7BA72CD912EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E3DB08923AE1B42391F84BF6F8D881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECB9D68CC18A6DD27F0262983B6720E /* Pods-PadScreenFix_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC0447AFD9F62D697650B52A8CB7C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0F8EB95686F6930D4BC9F894EBF333 /* Pods-PadScreenFix_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898F4D276F58CC1E5A29E03E251ADDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30933B7130B8577339761A6B306C131B /* FitSizeExtension.swift in Sources */,
+				D7ED284347BFFFB1D412DBBECA402F34 /* MatchableExtension.swift in Sources */,
+				A63C2753E9F12D6C5C0053567A2978EC /* MatchableUIExtension.swift in Sources */,
+				A99EAB30028255F7DBFA1DC1082882D5 /* PadFitManger.swift in Sources */,
+				AD9391D1F320B752782A8883C59B7DDE /* PadFitRule.swift in Sources */,
+				80BD576C4D4E5A3413251424F600E590 /* PadScreenFitConfig.swift in Sources */,
+				51666B856CC9440CB475E69D49A4DCBC /* PadScreenFix-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF8D1A12941ABEE9A93C65677637281D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PadScreenFix_Example";
+			target = 09D8F2ECB8EA30B4A974B65F9F974AC1 /* Pods-PadScreenFix_Example */;
+			targetProxy = 2BCFA4E3CBEFE313FC6166BFF422928C /* PBXContainerItemProxy */;
+		};
+		FD7AD91CE3809F6C417F488D7D9899E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PadScreenFix;
+			target = 41E389A5209959FAA296CB410C2E5422 /* PadScreenFix */;
+			targetProxy = 559C5719753294E6A47BD115682F3E3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B970F46D7DBB017E359DEB2A78737D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C750784FE409FECC2597C0B3F1422A /* Pods-PadScreenFix_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PadScreenFix_Tests/Pods-PadScreenFix_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PadScreenFix_Tests/Pods-PadScreenFix_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54D2908E56F359EEEF36875829CE3509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E839FC680E581CC4E5818A868DF97A9C /* PadScreenFix.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PadScreenFix/PadScreenFix-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PadScreenFix/PadScreenFix-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PadScreenFix/PadScreenFix.modulemap";
+				PRODUCT_MODULE_NAME = PadScreenFix;
+				PRODUCT_NAME = PadScreenFix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59E86A2124A202690967DF71F95F50F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF391570FC17EE241E9AA4F49A309F2 /* PadScreenFix.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PadScreenFix/PadScreenFix-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PadScreenFix/PadScreenFix-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PadScreenFix/PadScreenFix.modulemap";
+				PRODUCT_MODULE_NAME = PadScreenFix;
+				PRODUCT_NAME = PadScreenFix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73FDA5E8EBBED0607841B8EE72F2586F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5460B1002F09FB2ED3A8C5E43FD3BB4A /* Pods-PadScreenFix_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PadScreenFix_Tests/Pods-PadScreenFix_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PadScreenFix_Tests/Pods-PadScreenFix_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C0001BA5252418B23CF0E81B9CB43021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 226D657FB6A052E9479CC96E9048B12F /* Pods-PadScreenFix_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PadScreenFix_Example/Pods-PadScreenFix_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PadScreenFix_Example/Pods-PadScreenFix_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E250CB2655E0BFD103D0962B53BE0731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC87CA3DB4C67E3E022EA442EFC0DB01 /* Pods-PadScreenFix_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PadScreenFix_Example/Pods-PadScreenFix_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PadScreenFix_Example/Pods-PadScreenFix_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306A6C5D2B85FFA07E68CE8444A51002 /* Build configuration list for PBXNativeTarget "Pods-PadScreenFix_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73FDA5E8EBBED0607841B8EE72F2586F /* Debug */,
+				3B970F46D7DBB017E359DEB2A78737D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A105A7CCA046CC0325E7FD75DF7BBD /* Build configuration list for PBXNativeTarget "Pods-PadScreenFix_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0001BA5252418B23CF0E81B9CB43021 /* Debug */,
+				E250CB2655E0BFD103D0962B53BE0731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C038E97157C363937B9458FDB741F4A /* Build configuration list for PBXNativeTarget "PadScreenFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E86A2124A202690967DF71F95F50F3 /* Debug */,
+				54D2908E56F359EEEF36875829CE3509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

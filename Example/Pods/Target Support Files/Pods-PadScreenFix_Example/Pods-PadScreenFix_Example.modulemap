@@ -1,0 +1,6 @@
+framework module Pods_PadScreenFix_Example {
+  umbrella header "Pods-PadScreenFix_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

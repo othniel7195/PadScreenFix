@@ -1,0 +1,6 @@
+framework module PadScreenFix {
+  umbrella header "PadScreenFix-umbrella.h"
+
+  export *
+  module * { export * }
+}
