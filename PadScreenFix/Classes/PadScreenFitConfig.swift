@@ -23,6 +23,10 @@ public struct PadScreenFitConfig {
         case p105
 // 10.5-inch Pro, 11-inch  834x1194  2x
         case p11
+// air4 1180 * 820
+        case p119
+// mini6 1133 * 744
+        case mini6
 //  12.9-inch 1024x1366  2x
         case p129
         
@@ -41,6 +45,10 @@ public struct PadScreenFitConfig {
                 return CGSize(width: 834, height: 1194).isLandscape(PadScreenFitConfig.isLandscape)
             case .p129:
                 return CGSize(width: 1024, height: 1366).isLandscape(PadScreenFitConfig.isLandscape)
+            case .p119:
+                return CGSize(width: 820, height: 1180).isLandscape(PadScreenFitConfig.isLandscape)
+            case .mini6:
+                return CGSize(width: 744, height: 1133).isLandscape(PadScreenFitConfig.isLandscape)
             }
         }
         
@@ -89,6 +97,10 @@ public struct PadScreenFitConfig {
             return .p11
         case Screen.p129.nativeSize:
             return .p129
+        case Screen.p119.nativeSize:
+            return .p119
+        case Screen.mini6.nativeSize:
+            return .mini6
         default:
             return uiTemplate
         }

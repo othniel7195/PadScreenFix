@@ -13,6 +13,8 @@ public protocol MatchableProtocol {
     func p105(value: Self) -> Self
     func p11(value: Self) -> Self
     func p129(value: Self) -> Self
+    func p119(value: Self) -> Self
+    func mini6(value: Self) -> Self
 }
 
 extension MatchableProtocol {
@@ -30,6 +32,12 @@ extension MatchableProtocol {
     }
     public func p129(value: Self) -> Self {
         return matchScreen(.p129, value: value)
+    }
+    public func p119(value: Self) -> Self {
+        return matchScreen(.p119, value: value)
+    }
+    public func mini6(value: Self) -> Self {
+        return matchScreen(.mini6, value: value)
     }
     
     func matchScreen(_ screen: PadScreenFitConfig.Screen, value: Self) -> Self {
